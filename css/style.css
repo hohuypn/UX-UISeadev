@@ -1,0 +1,98 @@
+body {
+    font-family: 'Cabin';
+}
+ h1 {
+    font-family: 'Advent Pro';
+ }
+/* format */
+* {
+    margin: 0;
+    padding: 0;
+ }
+* {
+    box-sizing:border-box
+ }
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+ }
+/* header */
+.home-container {
+    padding-left: 133px;
+    display: flex;
+    width: 100%;
+ }
+.home-col-log-7 {
+    float: left;
+    justify-content: center;
+    width: 50%;
+ }
+ .home-menu{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+ }
+ .home-menu-bar{
+    padding-top: 5px;
+    padding-left: 10%;
+    width: 80%;
+    float: right;
+ }
+ .home-menu-bar > a{
+   text-decoration: none;
+   font-size: 13px;
+   padding: 5px;
+   margin-left: 5%;
+   color: black;
+ }
+ .home-menu-bar > a:hover{
+   color: red;
+ }
+.home-col-log-7>.home-content>p {
+    color:#CE0E2D;
+    padding-top: 48px;
+ }
+.title {
+   padding-top:10%;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0.05em;
+ }
+input.header-input {
+    font-size: 18px;
+    padding: 8px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #1B1B1B;
+    margin-left: 10px;
+    width: 300px;
+ }
+.home-header-form {
+    width: 90%;
+    flex-flow: row wrap;
+    align-items: center;
+ }
+.home-form-input {
+    display: flex;
+    padding-top: 62px;
+ }
+.home-button-find {
+    padding-top: 20px;
+    float: right;
+ }
+ button.home-button {
+    background: #CE0E2D;
+    color: white;
+    padding: 20px 60px;
+ }
+/* Slideshow */
+.col-log-5 {
+    width: 50%;
+    position: relative;
+ }
+
+
+
+
